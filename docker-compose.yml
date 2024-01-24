@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  database-connector:
+    image: gcr.io/horizon-380720/ingestion/connectors/pre-built/database-connector:1.0.1
+    env_file:
+      - .env
+    tty: true

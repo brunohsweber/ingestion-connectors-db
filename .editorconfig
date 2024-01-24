@@ -1,0 +1,19 @@
+# Global settings
+root = true
+
+# Define o estilo de indentação como espaços
+[*]
+indent_style = space
+indent_size = 2
+
+# Especifica que arquivos Markdown devem ter indentação de 4 espaços
+[*.md]
+indent_size = 4
+
+# Define quebras de linha como LF (Unix-style)
+[*]
+end_of_line = lf
+
+# Remove espaços em branco no final das linhas
+[*]
+trim_trailing_whitespace = true
